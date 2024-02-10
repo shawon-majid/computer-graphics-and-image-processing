@@ -11,5 +11,12 @@
   - Pixel selection and parameter calculations prioritize changes in the y-coordinate.
 
 - **Adjustment of Decision Parameter:**
+
   - The decision parameter (D) is recalculated based on changes in the y-coordinate.
   - Ensures precise determination of pixel selection along the line's trajectory.
+
+- **Test Cases**
+  - Test Case 1: (1, 1) to (8, 4)
+    ![0 < m < 1](./0%20<%20m%20<%201.png)
+  - Test Case 2: (1, 1) to (4, 8)
+    ![m > 1](./m%20>%201.png)

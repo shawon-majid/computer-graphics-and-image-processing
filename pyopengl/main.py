@@ -68,12 +68,15 @@ def drawLineForHighM(x0, y0, x1, y1):
     return points
 
 def main():
-    x0, y0 = 1, 1
-    x1, y1 = 8, 4
+    x0 = int(input("Enter x1: "))
+    y0 = int(input("Enter y1: "))   
+    x1 = int(input("Enter x2: "))
+    y1 = int(input("Enter y2: "))
 
     points = []
 
     points = bresenham(x0, y0, x1, y1)
+    print(points)
     
     x_values, y_values = zip(*points)
 
